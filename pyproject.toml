@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foxmakers-open-cad-kit"
+version = "1.0.0"
+description = "Parametric Additive Manufacturing CSG utilities (Manifold3D + Trimesh) and certified 2-manifold STL tools by FoxMakers."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "manifold3d>=2.5.0",
+    "trimesh>=4.0.0",
+    "numpy>=1.24.0",
+]
+
+[project.urls]
+Homepage = "https://hub.foxmakers.it/en/tools/stl-repair"
+Store = "https://www.foxmakers.it"
+Documentation = "https://hub.foxmakers.it/foxcad/info"
+Repository = "https://github.com/FoxMaker-s/foxmakers-open-cad-kit"
