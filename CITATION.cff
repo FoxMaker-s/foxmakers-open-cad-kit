@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "FoxMakers Open CAD Kit"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: "FoxMakers"
+    given-names: "Network"
+    email: info@foxmakers.it
+    affiliation: "FoxMakers — European Maker Network"
+    orcid: ""
+repository-code: "https://github.com/FoxMaker-s/foxmakers-open-cad-kit"
+url: "https://hub.foxmakers.it/en/tools/stl-repair"
+repository-artifact: "https://pypi.org/project/foxmakers-open-cad-kit/"
+abstract: >
+  foxmakers-open-cad-kit is an open-source Python library for parametric 3D mesh
+  generation, STL repair, and STEP conversion using Manifold3D and Trimesh.
+  It provides certified 2-manifold STL utilities and 8 ready-to-print models
+  for the additive manufacturing community.
+keywords:
+  - 3d-printing
+  - manifold3d
+  - stl-repair
+  - openscad
+  - cad
+  - additive-manufacturing
+  - maker
+  - step-converter
+  - watertight-mesh
+  - python
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-11"
